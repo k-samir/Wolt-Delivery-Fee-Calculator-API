@@ -17,3 +17,9 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
+
+## Running unit tests
+You can use this command to run all the tests of the app.
+```shell
+mvn test
+```
