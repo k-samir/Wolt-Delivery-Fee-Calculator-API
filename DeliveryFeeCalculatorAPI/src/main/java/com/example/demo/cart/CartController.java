@@ -17,7 +17,7 @@ public class CartController {
         this.cartService = cartService;
     }
 
-
+    @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping
     public ResponseEntity<Map<String, Object>> deliveryFee(@RequestBody Cart cart){
         Map<String, Object> payload = new HashMap<>();
